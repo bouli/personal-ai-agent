@@ -1,5 +1,3 @@
-import datetime
-from zoneinfo import ZoneInfo
 from google.adk.agents import Agent
 
 def get_contact_info():
@@ -207,7 +205,7 @@ def get_languages():
 
 def get_technical_skills():
     """
-    Retorna as habilidades técnicas e certificações do Cesar Cardoso.
+    Retrieves technical skills and certifications for Cesar Cardoso.
     """
     skills = {
         "technical_languages_certifications": [
@@ -225,7 +223,7 @@ def get_technical_skills():
 
 def get_summary_and_competencies():
     """
-    Retorna o resumo e as competências de Cesar Cardoso.
+    Retrieves a summary and competencies for Cesar Cardoso.
     """
     return {
         "summary": "AI Data Engineer | Project Manager | Developer",
@@ -236,7 +234,7 @@ def get_summary_and_competencies():
 
 def get_all_info():
     """
-    Retorna todas as informações do currículo de Cesar Cardoso.
+    Retrieves all information for Cesar Cardoso.
     """
     return {
         "contact_info": get_contact_info(),
